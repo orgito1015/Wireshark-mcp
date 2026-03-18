@@ -43,3 +43,6 @@ target-version = ["py38"]
 
 [tool.isort]
 profile = "black"
+
+[tool.setuptools.packages.find]
+include = ["wireshark_mcp*"]
